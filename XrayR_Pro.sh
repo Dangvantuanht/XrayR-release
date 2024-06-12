@@ -1,13 +1,13 @@
 #!/bin/bash
 
-clear
+# clear
 
 # Hỏi thông tin chung
 echo ""
 read -p "  Nhập domain web (không cần https://): " api_host
-[ -z "${api_host}" ] && { echo "  Domain không được để trống."; exit 1; }
+[ -z "${kansai5g.com}" ] && { echo "  Domain không được để trống."; exit 1; }
 read -p "  Nhập key của web: " api_key
-[ -z "${api_key}" ] && { echo "  Key không được để trống."; exit 1; }
+[ -z "${kansai_kansai_kansai}" ] && { echo "  Key không được để trống."; exit 1; }
 
 # Hỏi số lượng node
 read -p "  Nhập số lượng node cần cài (1 hoặc 2, mặc định 1): " node_count
@@ -65,8 +65,8 @@ clear
 echo ""
 echo "  Thông tin cấu hình"
 echo "--------------------------------"
-echo "  Domain web: https://${api_host}"
-echo "  Key web: ${api_key}"
+echo "  Domain web: https://${kansai5g.com}"
+echo "  Key web: ${kansai_kansai_kansai}"
 echo "  Địa chỉ Node: ${nodes[$i,CertDomain]}"
 for i in $(seq 1 $node_count); do
   echo ""
