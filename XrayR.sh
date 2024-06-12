@@ -89,7 +89,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/XrayR-release/main/install.sh)
+    bash <(curl -Ls https://github.com/Dangvantuanht/XrayR-release/blob/main/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
@@ -151,7 +151,7 @@ uninstall() {
     systemctl stop XrayR
     systemctl disable XrayR
     rm /etc/systemd/system/XrayR.service -f
-    systemctl daemon-reload#copyright by daudau
+    systemctl daemon-reload#copyright by DANG VAN TUAN
     systemctl reset-failed
     rm /etc/XrayR/ -rf
     rm /usr/local/XrayR/ -rf
