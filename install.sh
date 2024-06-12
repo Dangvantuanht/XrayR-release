@@ -169,7 +169,7 @@ install_XrayR() {
     if [[ ! -f /etc/XrayR/config.yml ]]; then
         cp config.yml /etc/XrayR/
         echo -e ""
-        echo -e "  Cài đặt mới, vui lòng tham khảo hướng dẫn trước：https://github.com/DauDau432/XrayR-release，Định cấu hình nội dung cần thiết"
+        echo -e "  Cài đặt mới, vui lòng tham khảo hướng dẫn trước：https://github.com/Dangvantuanht/XrayR-release，Định cấu hình nội dung cần thiết"
 	echo ""
     else
         systemctl start XrayR
@@ -199,7 +199,7 @@ install_XrayR() {
     chmod +x /usr/bin/xrayr
  
     echo -e ""
-    echo "------------[Đậu Đậu việt hóa]------------"
+    echo "------------[ĐẶNG VĂN TUẤN việt hóa]------------"
     echo "  Cách sử dụng tập lệnh quản lý XrayR"
     echo "------------------------------------------"
     echo "  XrayR                    - Hiển thị menu quản lý (nhiều chức năng hơn)"
