@@ -7,11 +7,11 @@ Một khung công tác back-end dựa trên Xray, hỗ trợ các giao thức V2
 ## Cài đặt 
 ***Phiên bản thường***
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/XrayR-release/main/install.sh)
+bash <(curl -Ls https://github.com/Dangvantuanht/XrayR-release/blob/main/install.sh)
 ```
 ***Phiên bản pro***
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/XrayR-release/main/XrayR_Pro.sh)
+bash <(curl -Ls https://github.com/Dangvantuanht/XrayR-release/blob/main/XrayR_Pro.sh)
 ```
 ## Cấu hình xrayr
 Sử dụng `nano` hoặc `vi` để vào thư mục cấu hình
@@ -51,7 +51,5 @@ Cấu hình xong nhớ khởi động lại xrayr nhé.
 
 Nên sử dụng VPS sạch để cài đặt tránh lỗi vặt 
 
-## Video demo
-[Tại đây](https://youtu.be/nKE_xBWgNM0)
 
 
