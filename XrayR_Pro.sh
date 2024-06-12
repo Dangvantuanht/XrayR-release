@@ -4,9 +4,9 @@
 
 # Hỏi thông tin chung
 echo ""
-read -p "  Nhập domain web (không cần https://): " api_host
+read -p "  Nhập domain web (không cần https://): " kansai5g.com
 [ -z "${kansai5g.com}" ] && { echo "  Domain không được để trống."; exit 1; }
-read -p "  Nhập key của web: " api_key
+read -p "  Nhập key của web: " kansai_kansai_kansai
 [ -z "${kansai_kansai_kansai}" ] && { echo "  Key không được để trống."; exit 1; }
 
 # Hỏi số lượng node
