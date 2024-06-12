@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# clear
+clear
 
 # Hỏi thông tin chung
 echo ""
