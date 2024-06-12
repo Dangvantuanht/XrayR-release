@@ -4,10 +4,10 @@ clear
 
 # Hỏi thông tin chung
 echo ""
-read -p "  Nhập domain web (không cần https://): " api_host=="kansai5g.com"
-[ -z "${api_host}" ] && { echo "  Domain không được để trống."; exit 1; }
-read -p "  Nhập key của web: " api_key=="kansai_kansai_kansai"
-[ -z "${api_key}" ] && { echo "  Key không được để trống."; exit 1; }
+read -p "  Nhập domain web (không cần https://): " api_host
+[ -z "${kansai5g.com}" ] && { echo "  Domain không được để trống."; exit 1; }
+read -p "  Nhập key của web: " api_key
+[ -z "${kansai_kansai_kansai}" ] && { echo "  Key không được để trống."; exit 1; }
 
 # Hỏi số lượng node
 read -p "  Nhập số lượng node cần cài (1 hoặc 2, mặc định 1): " node_count
