@@ -106,7 +106,7 @@ update() {
     else
         version=$2
     fi
-    bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/XrayR-release/main/install.sh) $version
+    bash <(curl -Ls https://github.com/Dangvantuanht/XrayR-release/blob/main/install.sh) $version
     if [[ $? == 0 ]]; then
         echo ""
         echo -e "  Cập nhật hoàn tất, XrayR đã được khởi động lại tự động, vui lòng sử dụng XrayR log để xem nhật ký đang chạy ${plain}"
@@ -272,7 +272,7 @@ install_bbr() {
 }
 
 update_shell() {
-    wget -O /usr/bin/XrayR -N --no-check-certificate https://raw.githubusercontent.com/DauDau432/XrayR-release/main/XrayR.sh
+    wget -O /usr/bin/XrayR -N --no-check-certificate https://github.com/Dangvantuanht/XrayR-release/blob/main/XrayR.sh
     if [[ $? != 0 ]]; then
         echo ""
         echo -e "  Không tải được script xuống, vui lòng kiểm tra xem máy có thể kết nối với Github không${plain}"
